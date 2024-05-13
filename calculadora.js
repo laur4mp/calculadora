@@ -6,7 +6,6 @@ function calcularSoma (){
     !isNaN(num1) && !isNaN(num2)? resultado = num1+num2:alert('Insira um número válido')
     let resposta = document.getElementById('resposta')
     resposta.textContent = resultado
-    console.log(resultado)
 }
 function calcularMultiplicacao(){
     let num1 = document.getElementById('num1').value 
