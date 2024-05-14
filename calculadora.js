@@ -1,15 +1,15 @@
 
 function calcularSoma (){
-    let num1 = document.getElementById('num1').value 
-    let num2 = document.getElementById('num2').value
+    let num1 = Number(document.getElementById('num1').value)
+    let num2 = Number(document.getElementById('num2').value)
     let resultado = ''
     !isNaN(num1) && !isNaN(num2)? resultado = num1+num2:alert('Insira um número válido')
     let resposta = document.getElementById('resposta')
     resposta.textContent = resultado
 }
 function calcularMultiplicacao(){
-    let num1 = document.getElementById('num1').value 
-    let num2 = document.getElementById('num2').value
+    let num1 = Number(document.getElementById('num1').value)
+    let num2 = Number(document.getElementById('num2').value)
     let resultado = ''
     !isNaN(num1) && !isNaN(num2)?resultado = num1*num2:alert('Insira um número válido')
     let resposta = document.getElementById('resposta')
@@ -17,16 +17,16 @@ function calcularMultiplicacao(){
     
 }
 function calcularSubtracao(){
-    let num1 = document.getElementById('num1').value 
-    let num2 = document.getElementById('num2').value
+    let num1 = Number(document.getElementById('num1').value)
+    let num2 = Number(document.getElementById('num2').value)
     let resultado = ''
     !isNaN(num1) && !isNaN(num2)?resultado = num1-num2:alert('Insira um número válido')
     let resposta = document.getElementById('resposta')
     resposta.textContent = resultado
 }
 function calcularDivisao(){
-    let num1 = document.getElementById('num1').value 
-    let num2 = document.getElementById('num2').value
+    let num1 = Number(document.getElementById('num1').value) 
+    let num2 = Number(document.getElementById('num2').value)
     let resultado = ''
     !isNaN(num1) && !isNaN(num2)?resultado = num1/num2:alert('Insira um número válido')
     let resposta = document.getElementById('resposta')
